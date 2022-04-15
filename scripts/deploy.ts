@@ -56,7 +56,7 @@ async function main() {
     OWNER_CUT_PER_MILLION,
     owner,
   )
-
+  console.log('acceptedToken:', acceptedToken)
   console.log('NFT Marketplace:', marketplace.address)
 }
 
