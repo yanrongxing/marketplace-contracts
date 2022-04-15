@@ -45,7 +45,7 @@ module.exports = {
       gas: 10000000,
       network_id: '1337', // eslint-disable-line camelcase
     },
-    // deploy: getDeployParams(),
+    deploy: getDeployParams(),
   },
   gasReporter: {
     chainId: 1,
