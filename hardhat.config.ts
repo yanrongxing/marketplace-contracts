@@ -43,9 +43,9 @@ module.exports = {
       url: 'http://127.0.0.1:8545',
       blockGasLimit: 10000000,
       gas: 10000000,
-      network_id: '*', // eslint-disable-line camelcase
+      network_id: '1337', // eslint-disable-line camelcase
     },
-    deploy: getDeployParams(),
+    // deploy: getDeployParams(),
   },
   gasReporter: {
     chainId: 1,
